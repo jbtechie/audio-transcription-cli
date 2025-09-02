@@ -1,5 +1,7 @@
 #!/usr/bin/env -S uv run --script
 
+# based on usage docs in https://huggingface.co/openai/whisper-large-v3
+
 import torch
 from transformers import AutoModelForSpeechSeq2Seq, AutoProcessor, pipeline
 import os
